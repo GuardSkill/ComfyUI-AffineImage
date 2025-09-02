@@ -1,7 +1,3 @@
-# ========================================
-# Python节点代码 (screen_mapper_nodes.py)
-# ========================================
-
 import torch
 import numpy as np
 import cv2
@@ -392,6 +388,6 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "CanvasFourPointSelector": "🎯 Canvas四点选择器",
-    "PerspectiveScreenMapper": "🔄 透视变换映射器", 
+    "CanvasFourPointSelector": "🎯 Canva4PointSelector",
+    "PerspectiveScreenMapper": "🔄 AffineTransform2img", 
 }
